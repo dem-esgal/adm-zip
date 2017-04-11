@@ -1,5 +1,6 @@
 var Utils = require("../util"),
-    Constants = Utils.Constants;
+    Constants = Utils.Constants,
+    Buffer = require("buffer").Buffer;
 
 /* The entries in the end of central directory */
 module.exports = function () {

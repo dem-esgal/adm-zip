@@ -1,7 +1,8 @@
 var Utils = require("./util"),
     Headers = require("./headers"),
     Constants = Utils.Constants,
-    Methods = require("./methods");
+    Methods = require("./methods"),
+    Buffer = require("buffer").Buffer;
 
 module.exports = function (/*Buffer*/input) {
 

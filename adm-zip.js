@@ -1,5 +1,6 @@
 var fs = require("fs"),
-    pth = require("path");
+    pth = require("path"),
+    Buffer = require("buffer").Buffer;
 
 fs.existsSync = fs.existsSync || pth.existsSync;
 

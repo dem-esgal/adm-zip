@@ -6,6 +6,8 @@
  * Original:
  *  http://www.onicos.com/staff/iz/amuse/javascript/expert/deflate.txt
  */
+var Buffer = require("buffer").Buffer;
+
 function JSDeflater(/*inbuff*/inbuf) {
 
     /* Copyright (C) 1999 Masanao Izumo <iz@onicos.co.jp>

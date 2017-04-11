@@ -1,6 +1,7 @@
 var ZipEntry = require("./zipEntry"),
     Headers = require("./headers"),
-    Utils = require("./util");
+    Utils = require("./util"),
+    Buffer = require("buffer").Buffer;
 
 module.exports = function(/*String|Buffer*/input, /*Number*/inputType) {
     var entryList = [],
